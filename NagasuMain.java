@@ -28,18 +28,6 @@ public class NagasuMain{
 		System.out.print
 			("ベースとなるカレーを選択してください 0:ポーク,1:ビーフ,2:チキン>>");
 		int base = new Scanner(System.in).nextInt();
-		String basecurry = "";
-		switch(base){
-			case 0:
-				basecurry = "ポーク";
-				break;
-			case 1:
-				basecurry = "ビーフ"; 
-				break;
-			case 2:
-				basecurry = "チキン"; 
-				break;
-		}
 
 		//トッピングが何種類かを聞く
 		System.out.print("トッピングは何種類?>>");
@@ -58,6 +46,6 @@ public class NagasuMain{
 		}
 		//結果を表示する
 		System.out.printf("今夜のカレーは「" + toppingrecipi + 
-				basecurry + "カレー」に決まりました"); 
+				curry[base] + "カレー」に決まりました"); 
 	}
 }
