@@ -48,6 +48,6 @@ public class Matsuoka{
 		}
 		//結果を表示する
 		toppingname+=curry[basenum];
-		System.out.printf("今夜のカレーは「%s」に決まりました!\n",toppingname);
+		System.out.printf("今夜のカレーは「%sカレー」に決まりました!\n",toppingname);
 	}
 }
