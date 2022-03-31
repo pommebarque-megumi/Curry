@@ -43,7 +43,7 @@ public class Matsuoka{
 		}
 
 		//トッピング数だけ、配列の頭から取り出しながら文字列連結
-		for(int i=0;i<toppingnum-1;i++){
+		for(int i=0;i<toppingnum;i++){
 			toppingname+=TOPPINGS[i];
 		}
 		//結果を表示する
