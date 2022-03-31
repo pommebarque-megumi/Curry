@@ -27,17 +27,6 @@ public class KimuraMain{
 		System.out.println("今夜のカレーを決めます。");
 		System.out.print("ベースとなるカレーを選択してください0:ポーク,1:ビーフ,2:チキン>");
 		int base = new Scanner(System.in).nextInt();
-		String base_curry = "";
-		switch(base){
-			case 1:
-				base_curry = "ビーフ";
-				break;
-			case 2:
-				base_curry = "チキン";
-				break;
-			default:
-				base_curry = "ポーク";
-		}
 		//トッピングが何種類かを聞く
 		System.out.printf("トッピングは何種類?>");
 		int top_num = new Scanner(System.in).nextInt();
@@ -55,6 +44,6 @@ public class KimuraMain{
 			my_topping += TOPPINGS[i];
 		}
 		//結果を表示する
-		System.out.printf("今夜のカレーは「%s%sカレー」に決まりました!",my_topping,base_curry);
+		System.out.printf("今夜のカレーは「%s%sカレー」に決まりました!",my_topping,curry[base]);
 	}
 }
