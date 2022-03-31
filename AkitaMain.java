@@ -43,6 +43,6 @@ public class AkitaMain{
 			topiAns += TOPPINGS[i];
 		}
 		//結果を表示する
-		System.out.printf("今夜のカレーは「%s%sカレー」に決まりました！",topiAns,curry[base]);
+		System.out.printf("今夜のカレーは「%s%sカレー」に決まりました！%n",topiAns,curry[base]);
 	}
 }
