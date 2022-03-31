@@ -42,7 +42,7 @@ public class AkitaMain{
 		for(int i =0;i<topi;i++){
 			topiAns += TOPPINGS[i];
 		}
-		//結果を表示する
+		//結果を表示する。
 		System.out.printf("今夜のカレーは「%s%sカレー」に決まりました！%n",topiAns,curry[base]);
 	}
 }
