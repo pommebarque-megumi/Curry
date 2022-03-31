@@ -45,6 +45,6 @@ public class SugawaraMain{
 		}
 
 		//結果を表示する
-		System.out.printf("今夜のかれーは%sベースで、トッピングは%s",curry[base],pickupTopping);
+		System.out.printf("今夜のかれーは・・・%sのせ%sカレーです。",pickupTopping,curry[base]);
 	}
 }
